@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Checkout [Portfolio](https://aravindvijay7.github.io/portfolio/).
 
 ## Available Scripts
 
