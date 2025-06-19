@@ -1,14 +1,18 @@
-import React from 'react';
-import { Button } from "@/components/ui/button";
+
+import React from "react";
 import { Github, Linkedin, Mail } from "lucide-react";
 
-export default function Portfolio() {
+function App() {
   return (
     <main className="min-h-screen bg-white text-gray-900 p-6">
       <section className="text-center py-12">
         <h1 className="text-4xl font-bold mb-2">Aravind Vijay</h1>
-        <p className="text-xl text-gray-600">Senior Android Developer | Kotlin | Jetpack Compose | MVVM</p>
-        <p className="mt-2">Immediate Joiner | Open to Remote / Hybrid / On-site</p>
+        <p className="text-xl text-gray-600">
+          Senior Android Developer | Kotlin | Jetpack Compose | MVVM
+        </p>
+        <p className="mt-2">
+          Immediate Joiner | Open to Remote / Hybrid / On-site
+        </p>
         <div className="mt-4 flex justify-center gap-4">
           <a href="mailto:aravindvijay07@gmail.com" target="_blank" rel="noopener noreferrer">
             <Mail className="w-6 h-6" />
@@ -21,11 +25,13 @@ export default function Portfolio() {
           </a>
         </div>
         <div className="mt-6">
-          <Button asChild>
-            <a href="/Aravind_Vijay_Resume_Updated.pdf" download>
-              Download Resume
-            </a>
-          </Button>
+          <a
+            href="/Aravind_Vijay_Resume_Updated.pdf"
+            download
+            className="inline-block px-4 py-2 text-white bg-blue-600 rounded hover:bg-blue-700"
+          >
+            Download Resume
+          </a>
         </div>
       </section>
 
@@ -59,3 +65,5 @@ export default function Portfolio() {
     </main>
   );
 }
+
+export default App;
