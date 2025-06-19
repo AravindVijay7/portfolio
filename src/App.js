@@ -26,7 +26,7 @@ function App() {
         </div>
         <div className="mt-6">
           <a
-            href="/Aravind_Vijay_Resume_Updated.pdf"
+            href="/Aravind_Vijay_Resume.pdf"
             download
             className="inline-block px-4 py-2 text-white bg-blue-600 rounded hover:bg-blue-700"
           >
